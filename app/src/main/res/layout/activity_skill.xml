@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background2"
+    tools:context=".SkillActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/html"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/htmlicon" />
+
+        <ProgressBar
+            android:id="@+id/html_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toRightOf="@id/html"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="80"
+            android:progressDrawable="@drawable/circular"
+            android:secondaryProgress="100" />
+
+        <ImageView
+            android:id="@+id/css"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="15dp"
+            android:layout_below="@id/html"
+            android:src="@drawable/cssicon" />
+
+        <ProgressBar
+            android:id="@+id/css_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toRightOf="@id/html"
+            android:layout_below="@id/html"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="70"
+            android:progressDrawable="@drawable/circular"
+            android:secondaryProgress="100" />
+
+        <ImageView
+            android:id="@+id/php"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="15dp"
+            android:layout_below="@id/css"
+            android:src="@drawable/phpicon" />
+
+        <ProgressBar
+            android:id="@+id/php_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toRightOf="@id/html"
+            android:layout_below="@id/css"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="60"
+            android:progressDrawable="@drawable/circular"
+            android:secondaryProgress="100" />
+
+        <ImageView
+            android:id="@+id/js"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="15dp"
+            android:layout_below="@id/php"
+            android:src="@drawable/jsicon" />
+
+        <ProgressBar
+            android:id="@+id/js_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toRightOf="@id/html"
+            android:layout_below="@id/php"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="60"
+            android:progressDrawable="@drawable/circular"
+            android:secondaryProgress="100" />
+
+        <ImageView
+            android:id="@+id/mysql"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="15dp"
+            android:layout_below="@id/js"
+            android:src="@drawable/sqlicon" />
+
+        <ProgressBar
+            android:id="@+id/mysql_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toRightOf="@id/html"
+            android:layout_below="@id/js"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="75"
+            android:progressDrawable="@drawable/circular"
+            android:secondaryProgress="100" />
+
+        <ImageView
+            android:id="@+id/java"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="15dp"
+            android:layout_below="@id/mysql"
+            android:src="@drawable/javaicon" />
+
+        <ProgressBar
+            android:id="@+id/java_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toRightOf="@id/html"
+            android:layout_below="@id/mysql"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="60"
+            android:progressDrawable="@drawable/circular"
+            android:secondaryProgress="100" />
+
+        <ImageView
+            android:id="@+id/as"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="15dp"
+            android:layout_below="@id/java"
+            android:src="@drawable/asicon" />
+
+        <ProgressBar
+            android:id="@+id/as_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toRightOf="@id/html"
+            android:layout_below="@id/java"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="50"
+            android:progressDrawable="@drawable/circular"
+            android:secondaryProgress="100" />
+    </RelativeLayout>
+
+</ScrollView>
